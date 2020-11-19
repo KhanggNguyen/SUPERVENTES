@@ -4,9 +4,9 @@
         "marque" : "Adidas",
         "type" : "Chaussures",
         "prix" : 129.95,
-        "rating" : 4.0,
+        "rating" : 4.5,
         "numReviews" : 15,
-        "countInStock" : 12
+        "countInStock" : 34
     },
     {
         "nom" : "Chaussure Stan Smith",
@@ -14,7 +14,7 @@
         "type" : "Chaussures",
         "prix" : 100,
         "rating" : 4.0,
-        "numReviews" : 15,
+        "numReviews" : 575,
         "countInStock" : 12
     },
     {
@@ -22,8 +22,8 @@
         "marque" : "Nike",
         "type" : "Chaussures",
         "prix" : 120,
-        "rating" : 4.0,
-        "numReviews" : 15,
+        "rating" : 4.2,
+        "numReviews" : 99,
         "countInStock" : 12
     },
     {
@@ -33,16 +33,16 @@
         "prix" : 150,
         "rating" : 4.0,
         "numReviews" : 15,
-        "countInStock" : 12
+        "countInStock" : 88
     },
     {
         "nom" : "Nike Air Max Plus III",
         "marque" : "Nike",
         "type" : "Chaussures",
         "prix" : 200,
-        "rating" : 4.0,
+        "rating" : 4.7,
         "numReviews" : 15,
-        "countInStock" : 12
+        "countInStock" : 77
     },
     {
         "nom" : "Nike Air Zoom Pegasus",
@@ -50,8 +50,8 @@
         "type" : "Chaussures",
         "prix" : 125,
         "rating" : 4.0,
-        "numReviews" : 15,
-        "countInStock" : 12
+        "numReviews" : 17,
+        "countInStock" : 66
     },
     
     {
@@ -60,8 +60,8 @@
         "type" : "Vetement",
         "prix" : 64.95,
         "rating" : 4.0,
-        "numReviews" : 15,
-        "countInStock" : 12
+        "numReviews" : 127,
+        "countInStock" : 55
     },
     {
         "nom" : "Veste d'hiver",
@@ -69,17 +69,17 @@
         "type" : "Vetement",
         "prix" : 129.95,
         "rating" : 4.0,
-        "numReviews" : 15,
-        "countInStock" : 12
+        "numReviews" : 55,
+        "countInStock" : 4
     },
     {
         "nom" : "Veste de survêtement",
         "marque" : "Adidas",
         "type" : "Vetement",
         "prix" : 85.95,
-        "rating" : 4.0,
-        "numReviews" : 15,
-        "countInStock" : 12
+        "rating" : 5.0,
+        "numReviews" : 1,
+        "countInStock" : 33
     },
     {
         "nom" : "Sac a dos 4ATHLS",
@@ -88,34 +88,34 @@
         "prix" : 39.95,
         "rating" : 4.0,
         "numReviews" : 15,
-        "countInStock" : 12
+        "countInStock" : 1
     },
     {
         "nom" : "Sac a dos classic",
         "marque" : "Adidas",
         "type" : "Vetement",
         "prix" : 24.95,
-        "rating" : 4.0,
-        "numReviews" : 15,
-        "countInStock" : 12
+        "rating" : 4.1,
+        "numReviews" : 23,
+        "countInStock" : 5
     },
     {
         "nom" : "Sweat a capuche en tissu Fleece",
         "marque" : "Nike",
         "type" : "Vetement",
         "prix" : 70,
-        "rating" : 4.0,
-        "numReviews" : 15,
-        "countInStock" : 12
+        "rating" : 2.3,
+        "numReviews" : 88,
+        "countInStock" : 35
     },
     {
         "nom" : "Casquette réglable",
         "marque" : "Nike",
         "type" : "Accessoires",
         "prix" : 30,
-        "rating" : 4.0,
-        "numReviews" : 15,
-        "countInStock" : 12
+        "rating" : 1.1,
+        "numReviews" : 87,
+        "countInStock" : 55
     },
     {
         "nom" : "Pantalon pour Homme",
@@ -123,8 +123,8 @@
         "type" : "Vetement",
         "prix" : 65,
         "rating" : 4.0,
-        "numReviews" : 15,
-        "countInStock" : 12
+        "numReviews" : 21,
+        "countInStock" : 15
     },
     {
         "nom" : "Ballon de football",
@@ -132,7 +132,7 @@
         "type" : "Accessoires",
         "prix" : 20,
         "rating" : 4.0,
-        "numReviews" : 15,
+        "numReviews" : 152,
         "countInStock" : 12
     }
 
