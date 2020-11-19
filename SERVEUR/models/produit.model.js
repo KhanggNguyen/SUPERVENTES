@@ -1,20 +1,28 @@
-const mongoose = require('mongoose');
-require('mongoose-double')(mongoose);
+const mongoose = require("mongoose");
+const Double = require("@mongoosejs/double");
 
-var SchemaTypes = mongoose.Schema.Types;
 var produitSchema = new mongoose.Schema({
-    nom: {
-        type: String
-    },
-    marque: {
-        type: String
-    },
-    type: {
-        type: String
-    },
-    prix: {
-        type: SchemaTypes.Double
-    }
+  nom: {
+    type: String,
+  },
+  marque: {
+    type: String,
+  },
+  type: {
+    type: String,
+  },
+  prix: {
+    type: Double,
+  },
+  rating: {
+    type: Double,
+  },
+  numReviews: {
+    type: Double,
+  },
+  countInStock: {
+    type: Double,
+  },
 });
 
-mongoose.model('Produit', produitSchema, 'produits');
+mongoose.model("Produit", produitSchema, "produits");
