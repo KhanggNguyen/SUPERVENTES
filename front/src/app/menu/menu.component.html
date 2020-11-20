@@ -1,0 +1,107 @@
+<div class="top-bar">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-6">
+        <i class="fa fa-envelope"></i>
+        support@email.com
+      </div>
+      <div class="col-sm-6">
+        <i class="fa fa-phone-alt"></i>
+        +012-345-6789
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="nav">
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+      <a class="navbar-brand" href="#">SUPERVENTES</a>
+      <button
+        type="button"
+        class="navbar-toggler"
+        data-toggle="collapse"
+        data-target="#navbarCollapse"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div
+        class="collapse navbar-collapse justify-content-between"
+        id="navbarCollapse"
+      >
+        <div class="navbar-nav mr-auto">
+          <a class="nav-item nav-link active" routerLink="produits">Produits</a>
+
+          <a class="nav-item nav-link" routerLink="recherche">Recherche</a>
+        </div>
+
+        <div class="navbar-nav ml-auto">
+          <div class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"
+              >Compte</a
+            >
+            <div class="dropdown-menu">
+              <a
+                class="dropdown-item"
+                routerLink="authentification"
+                *ngIf="!isAuthenticated()"
+                >Se connecter</a
+              >
+              <a
+                class="dropdown-item"
+                routerLink="inscription"
+                *ngIf="!isAuthenticated()"
+                >Inscription</a
+              >
+              <a
+                class="dropdown-item"
+                routerLink="profile"
+                *ngIf="isAuthenticated()"
+                >Profile</a
+              >
+              <a
+                class="dropdown-item"
+                (click)="onLogout()"
+                *ngIf="isAuthenticated()"
+              >
+                Déconnecter
+              </a>
+            </div>
+          </div>
+          <a class="nav-link" routerLink="panier" *ngIf="isAuthenticated()"
+            >Mon panier</a
+          >
+        </div>
+      </div>
+    </nav>
+  </div>
+</div>
+
+<div class="bottom-bar">
+  <div class="container-fluid">
+    <div class="row align-items-center">
+      <div class="col-md-3">
+        <div class="logo">
+          <a href="index.html">
+            <img src="https://via.placeholder.com/100" alt="Logo" />
+          </a>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="search">
+          <input type="text" placeholder="Search" />
+          <button><i class="fa fa-search"></i></button>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="user">
+          <a routerLink="panier" class="btn cart">
+            <i class="fa fa-shopping-cart"></i>
+            <span>(0)</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
