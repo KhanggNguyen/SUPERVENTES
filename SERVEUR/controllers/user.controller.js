@@ -11,6 +11,7 @@ module.exports.register = (req, res, next) => {
   user.prenom = req.body._prenom;
   user.email = req.body._email;
   user.mdp = req.body._password;
+  user.isAdmin = false;
   user.save((err, doc) => {
     if (!err) {
       res.send(doc);
